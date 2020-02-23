@@ -1,0 +1,23 @@
+.fullwidth {
+    width: 100%;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#fixedFooter {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.col-6 {
+    width: 90vw;
+    float: left;
+    text-align: left;
+}
+
+.col-3 {
+    width: 95%;
+    float: left;
+    text-align: left;
+}

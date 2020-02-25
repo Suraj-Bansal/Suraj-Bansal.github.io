@@ -143,11 +143,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 40px;
     margin: 0 0 30px;
 }
 
@@ -746,7 +746,6 @@ a {
     height: 200px;
     width: 200px;
     display: block;
-    background: url(../images/pattern1.png);
     background-size: 155px;
     top: -80px;
 }
@@ -1518,7 +1517,7 @@ h4.media-heading {
 
 .footer {
     margin-top: 0;
-    padding: 50px;
+    padding: 40px;
 }
 
 /* ---------------------------------------------- 
@@ -1606,8 +1605,8 @@ h4.media-heading {
     }
 
     .about-avatar img {
-        height: 130px;
-        width: 130px;
+        height: 150px;
+        width: 150px;
     }
 
     .portfolio-item--img img {

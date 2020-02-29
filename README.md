@@ -1,3 +1,3 @@
 # Suraj-Bansal.github.io
 
-personal website -> surajbansal.ca
+personal website -> https://surajbansal.ca/

@@ -406,6 +406,12 @@ a {
 .navbar-brand {
     letter-spacing: 3px;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.navbar-brand:hover {
+    font-weight: 600;
+    font-size: 1.3rem;
 }
 
 .nav-wrapper .navbar-toggler {
@@ -501,6 +507,7 @@ a {
 
 .navbar-nav .nav-link.active {
     opacity: 1;
+    font-weight: 500;
     color: #593eff !important;
 }
 

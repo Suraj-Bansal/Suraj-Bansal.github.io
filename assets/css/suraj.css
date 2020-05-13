@@ -7,7 +7,7 @@
 * Author   : beingeorge
 * Support  : hello@beingeorge.com
 * 
-------------------*/
+------------------*/ 
 
 
 /*-----------------
@@ -414,6 +414,7 @@ a {
     font-size: 1.3rem;
 }
 
+
 .nav-wrapper .navbar-toggler {
     position: absolute;
     left: 100%;
@@ -475,7 +476,7 @@ a {
     letter-spacing: 2px;
     position: relative;
     display: inline-block;
-    color: rgba(0,0,0,.7) !important;
+    color: rgba(0,0,0,.8) !important;
     text-transform: uppercase;
     padding-left: 15px !important;
     opacity: 0.8;
@@ -484,6 +485,8 @@ a {
 
 .navbar-nav .nav-link:hover {
     opacity: 1;
+    font-weight: 500;
+    text-decoration: underline;
 }
 
 .navbar-nav .nav-link:after {
@@ -507,7 +510,7 @@ a {
 
 .navbar-nav .nav-link.active {
     opacity: 1;
-    font-weight: 500;
+    font-weight: 550;
     color: #593eff !important;
 }
 
@@ -528,9 +531,12 @@ a {
 .section-home {
     height: 100vh;
     position: relative;
-    background-image: url("../images/slider3.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.image2 {
+    display: none;
 }
 
 .overlay {
@@ -819,6 +825,14 @@ a {
 * 7. Portfolio
 /* ---------------------------------------------- */
 
+#projects1 {
+    display: block;
+ }
+ 
+ #projects2 {
+    display: none;
+ }
+
 .filter {
     border-bottom: 1px solid #eee; 
 }
@@ -839,15 +853,14 @@ a {
 }
 
 .portfolio-item {
-    width: 400px;
+    width: 500px;
+    height: 500px
 }
 
 .portfolio-item--img img {
     overflow: hidden;
     display: block;
-    height: 400px;
     object-fit: cover;
-    width: 100%;
 }
 
 .portfolio-item--content {
@@ -1111,9 +1124,15 @@ a {
 * 9. Freelance
 /* ---------------------------------------------- */
 
+#connect1 {
+    display: block;
+ }
+ 
+ #connect2 {
+    display: none;
+ }
 
 .section-freelance {
-    background: url(../images/freelance.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1476,6 +1495,14 @@ h4.media-heading {
 /* ---------------------------------------------- 
 * 13. Contact
 /* ---------------------------------------------- */
+
+#contact1 {
+    display: block;
+}
+
+#contact2 {
+    display: none;
+}
 
 .section-contact {
     padding-bottom: 30px !important;

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Suraj Bansal - Personal Portfolio</title>
+	<title>Suraj Bansal</title>
 	<meta name="description" content="Suraj Bansal - Personal Wesbite" />
 	<meta name="keywords" content="suraj, bansal, machine learning developer, AI enthusiast, healthcare, student, portfolio" />
 	<meta name="author" content="Suraj Bansal" />
@@ -19,6 +19,9 @@
 
 	<!-- Custom style Css -->
 	<link href="assets/css/custom.css" rel="stylesheet">
+	<!-- Mobile Style Css-->
+	<link rel="stylesheet" media = "screen and (max-width: 768px)" href="assets/css/mobile.css">
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
@@ -48,18 +51,18 @@
 					<ul class="navbar-nav ml-auto">
 						<li><a class="nav-link active" href="#home">HOME</a></li>
 						<li><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
-						<li><a class="nav-link" href="#projects">PROJECTS</a></li>
+						<li><a class="nav-link" href="#projects1">PROJECTS</a></li>
 						<li><a class="nav-link" href="#content">CONTENT</a></li>
-						<li><a class="nav-link" href="#contact">CONTACT</a></li>
+						<li><a class="nav-link" href="#contact1">CONTACT</a></li>
 					</ul>
 				</div>
-			</div>
 		</nav>
 
 		<!-- START: HOME -->		
     	<section class="section-home " id="home">
     		<div class="overlay d-flex justify-content-center align-items-center">
-					<img src="assets/images/headerpicture.jpg">
+					<img src="assets/images/headerpicture.jpg" class = "image1">
+					<img src="assets/images/phoneheader.jpg" class = "image2">
     			<div class="overlay-wrap section-head">
 	 	   			<h1>Suraj Bansal</h1>
 				</div>
@@ -80,7 +83,7 @@
 						<div class="about-desc">
 							<div class="about-desc-content">
 								<h2>ABOUT SURAJ—</h2>
-								<p class="mt-4 font-weight-light">Hey there! I'm 16 and really interested in software and machine learning development! I've always been passionate about creating interdisciplinary approaches to innovation and healthcare. My recent work involves polyp detection models with convolutional neural networks and predicting driver intent with recurrent-neural networks and YOLO object detection. Let's talk more!</p>
+								<p class="mt-4 font-weight-light">Hey there! I'm 16 and currently learning full-stack and machine learning development. I'm currently interested in public health and autonomous vehicles, specifically their intersections with AI. Recent work involves polyp detection and  financial prediction models, open-source autonomous vehicles software and consulting work for Sidewalk Labs and Kidogo. Let's talk more!</p>
 							</div>
 							<ul class="about-desc-social mt-4 list-unstyled list-inline">
 		                        <li class="list-inline-item"><a href="https://github.com/Suraj-Bansal" target="_blank"><i class="fab fa-github"></i></a></li>
@@ -132,14 +135,14 @@
 							<div>
 								<h5>Bayview Secondary School</h5>
 								<h6 class="badge badge-dark d-inline-block my-3">2017-Present</h6>
-								<p>International Baccalaureate Diploma candidate and honours student. </p>
+								<p>International Baccalaureate Diploma candidate and honours student. Grade 11 Average: 96%.</p>
 							</div>
 						</div>
 						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
 							<div>
 								<h5>The Knowledge Society</h5>
 								<h6 class="badge badge-dark d-inline-block my-3">2019-Present</h6>
-								<p>Canada's leading human accelerator emulating education model of MIT, Stanford and Harvard and building students' entrepreneurship and innovation competencies. </p>
+								<p>World Economic Forum school that emulates MIT, Stanford and Harvard education model's while replicating Silicon Valley environment to provide Olympic-level CEO training.</p>
 							</div>
 						</div>
 					</div>
@@ -150,7 +153,7 @@
 		<!-- END: RESUME -->
 
 		<!--START: PROJECTS -->   
-		<section class="section section-work" id="projects">
+		<section class="section section-work" id="projects1">
 			<div class="container">
 				<div class="section-head text-center">
 					<h2>My Work and Projects</h2>
@@ -158,19 +161,6 @@
 			</div>
 			<div class="container swiper-container swiper-portfolio wow fadeInUp" data-wow-duration="1.5s">
 				<div class=" swiper-wrapper">
-
-					<div class="portfolio-item swiper-slide  slideshow" data-groups="all slideshow">
-						<a href="https://github.com/Suraj-Bansal/CIFAR10-Classification" target="_blank" class="portfolio-item--content">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/cifar.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">CIFAR10 CLASSIFICATION</h3>
-								</div>
-							</div>
-						</a>
-					</div>
 
 					<div class="portfolio-item swiper-slide image" data-groups="all image">
 						<a href="assets/Kidogo.pdf" target="_blank" class="portfolio-item--content">
@@ -198,19 +188,18 @@
 						</a>
 					</div>
 
-					<div class="portfolio-item swiper-slide  slideshow" data-groups="all slideshow">
-						<a href="https://github.com/Suraj-Bansal/Recurrent-Neural-Network-for-Google-Stock-Price-Prediction" target="_blank" class="portfolio-item--content">
+					<div class="portfolio-item swiper-slide image" data-groups="all image">
+						<a href="https://ryde.netlify.app/" target="_blank" class="portfolio-item--content">
 							<div class="portfolio-item--img b-box">
-								<img src="assets/images/stocklstm.jpg" class="img-fluid mx-auto" alt="work-img">
+								<img src="assets/images/ryde.jpg" class="img-fluid mx-auto" alt="work-img">
 							</div>
 							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
 								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">GOOGLE STOCK PREDICTION</h3>
+									<h3 class="mb-2 text-white">RYDE- OPEN-SOURCE SELF-DRIVING CAR SOFTWARE</h3>
 								</div>
 							</div>
 						</a>
 					</div>
-
 
 					<div class="portfolio-item swiper-slide image" data-groups="all image">
 						<a href="https://drive.google.com/file/d/10nBSPSkaKlkVn7yOUCLjWkNUwt6DJEsD/view?usp=sharing" target="_blank" class="portfolio-item--content">
@@ -225,6 +214,99 @@
 						</a>
 					</div>
 
+					<div class="portfolio-item swiper-slide  slideshow" data-groups="all slideshow">
+						<a href="https://github.com/Suraj-Bansal/Recurrent-Neural-Network-for-Google-Stock-Price-Prediction" target="_blank" class="portfolio-item--content">
+							<div class="portfolio-item--img b-box">
+								<img src="assets/images/stocklstm.jpg" class="img-fluid mx-auto" alt="work-img">
+							</div>
+							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
+								<div class="portfolio-item--desc-in">
+									<h3 class="mb-2 text-white">APPLE STOCK AND FINANCIAL PREDICTIONS</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+
+				</div>
+				<div class="portfolio-pagination">
+					
+				</div>
+			</div>
+		</section>
+		<section class="section section-work" id="projects2">
+			<div class="container">
+				<div class="section-head text-center">
+					<h2>My Work and Projects</h2>
+				</div>
+			</div>
+			<div class="container swiper-container swiper-portfolio wow fadeInUp" data-wow-duration="1.5s">
+				<div class=" swiper-wrapper">
+
+					<div class="portfolio-item swiper-slide image" data-groups="all image">
+						<a href="assets/Kidogo.pdf" target="_blank" class="portfolio-item--content">
+							<div class="portfolio-item--img b-box">
+								<img src="assets/images/kidogosmall.jpg" class="img-fluid mx-auto" alt="work-img">
+							</div>
+							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
+								<div class="portfolio-item--desc-in">
+									<h3 class="mb-2 text-white">KIDOGO CONSULTING RECOMMENDATION</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="portfolio-item swiper-slide  slideshow" data-groups="all slideshow">
+						<a href="https://github.com/Suraj-Bansal/polyp-detection-model-" target="_blank" class="portfolio-item--content">
+							<div class="portfolio-item--img b-box">
+								<img src="assets/images/polypsmall.jpg" class="img-fluid mx-auto" alt="work-img">
+							</div>
+							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
+								<div class="portfolio-item--desc-in">
+									<h3 class="mb-2 text-white">POLYP DETECTION MODEL</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="portfolio-item swiper-slide image" data-groups="all image">
+						<a href="https://ryde.netlify.app/" target="_blank" class="portfolio-item--content">
+							<div class="portfolio-item--img b-box">
+								<img src="assets/images/rydesmall.jpg" class="img-fluid mx-auto" alt="work-img">
+							</div>
+							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
+								<div class="portfolio-item--desc-in">
+									<h3 class="mb-2 text-white">RYDE- OPEN-SOURCE SELF-DRIVING CAR SOFTWARE</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="portfolio-item swiper-slide image" data-groups="all image">
+						<a href="https://drive.google.com/file/d/10nBSPSkaKlkVn7yOUCLjWkNUwt6DJEsD/view?usp=sharing" target="_blank" class="portfolio-item--content">
+							<div class="portfolio-item--img b-box">
+								<img src="assets/images/swl.jpg" class="img-fluid mx-auto" alt="work-img">
+							</div>
+							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
+								<div class="portfolio-item--desc-in">
+									<h3 class="mb-2 text-white">SIDEWALK LABS CONSULTING RECOMMENDATION</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="portfolio-item swiper-slide  slideshow" data-groups="all slideshow">
+						<a href="https://github.com/Suraj-Bansal/Recurrent-Neural-Network-for-Google-Stock-Price-Prediction" target="_blank" class="portfolio-item--content">
+							<div class="portfolio-item--img b-box">
+								<img src="assets/images/smalllstm.jpg" class="img-fluid mx-auto" alt="work-img">
+							</div>
+							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
+								<div class="portfolio-item--desc-in">
+									<h3 class="mb-2 text-white">APPLE STOCK AND FINANCIAL PREDICTIONS</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+
 				</div>
 				<div class="portfolio-pagination">
 					
@@ -234,7 +316,21 @@
 		<!--END: PROJECTS -->
 
 		<!-- START: CTA -->
-		<section class="section  section-freelance section-light text-center" style="background-image:url(../assets/images/microphone.JPG)">
+		<section class="section section-freelance section-light text-center" id = "connect1" style="background-image:url(../assets/images/microphone.JPG)">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-head wow fadeInUp" data-wow-duration="1.5s">
+							<h2>Let's work together!</h2>
+						</div>
+						<div class="mt-5 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
+							<a href="./assets/SurajResume.pdf" target="_blank" class="btn btn-outline hover-state">MY RESUME</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section section-freelance section-light text-center" id = "connect2" style="background-image:url(/../assets/images/work.jpg)">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
@@ -287,6 +383,36 @@
 								<div class="blog-list--desc p-3">
 									<p>BREAKING NEWS: CRISPR Cas-9 Cures 16 year old boy's caffeine addiction</p>
 									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Genomics</span>
+								</div>
+							</a>
+							<a href="https://www.youtube.com/watch?v=uxch5us6fFs&app=desktop" target="_blank"  class="swiper-slide blog-list b-box hover-state d-block mb-4">
+								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".4s">
+									<img src="assets/images/ryde1.jpg" alt="Blog Image" class="img-fluid">
+									<div class="blog-list--details d-flex justify-content-center align-items-center">
+										<div class="blog-list--details-in">
+											<p class="blog-by text-white">Suraj Bansal</p>
+											<span class="blog-duration text-white">12-Minute Watch</span>
+										</div>
+									</div>
+								</div>
+								<div class="blog-list--desc p-3">
+									<p>Autonomous Vehicles Explained and Introducing Ryde</p>
+									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Autonomous Vehicles</span>
+								</div>
+							</a>
+							<a href="https://medium.com/datadriveninvestor/data-pre-processing-with-scikit-learn-9896c561ef2f" target="_blank" class="swiper-slide blog-list b-box hover-state d-block mb-4">
+								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".2s">
+									<img src="assets/images/pre-processing.jpg" alt="Blog Image" class="img-fluid">
+									<div class="blog-list--details d-flex justify-content-center align-items-center">
+										<div class="blog-list--details-in">
+											<p class="blog-by text-white">Suraj Bansal</p>
+											<span class="blog-duration text-white">7-Minute Read</span>
+										</div>
+									</div>
+								</div>
+								<div class="blog-list--desc p-3">
+									<p>Introduction to Data Preprocessing with Scikit-Learn</p>
+									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Data Preprocessing</span>
 								</div>
 							</a>
 							<a href="https://medium.com/datadriveninvestor/the-math-and-intuition-behind-gradient-descent-13c45f367a11" target="_blank" class="swiper-slide blog-list b-box hover-state d-block mb-4">
@@ -393,27 +519,27 @@
 		<!-- END: CONTENT -->
 
 		<!-- START: CONTACT -->
-		<section class="section section-dark section-contact" id="contact">
+		<section class="section section-dark section-contact" id="contact1">
 			<div class="fullwidth">
 				<div id="fixedFooter">
 					<div class="col-6">
-						<h3>| Give Me A Summary</h3>
+						<h3>| GIVE ME A SUMMARY</h3>
 						<p>
-							Hey there! My name is Suraj Bansal and I'm super interested in leveraging machine learning technology to solve global healthcare inefficiencies!<br>
+							Hey there! My name is Suraj Bansal. I'm a student developer based in Toronto that's currently focused on machine learning development and full-stack development.<br>
 						</P>
 						<p>
-							This involves projects with polyp detection, driver intent for autonomous vehicle development and consulting initiatives for Sidewalk Labs.<br>
+							Some recent work involves building open-source autonomous vehicle software to democratize the industry and break the affordability barrier<br>
 						</p>
 						<p>
-							I'm currently seeking growth opportunities in software development for healthcare innovation- reach out anytime!<br>
+							I'm currently seeking growth opportunities in software development for autonomous vehicles or healthcare innovation- reach out anytime!<br>
 						</p>
 					</div>
 					<div class="col-3">
-						<h3>| Learn More</h3>
+						<h3>| LEARN MORE</h3>
 						<p>
 							<a href="assets/resume/SurajResume.pdf" class="text-black-50"target="_blank">Resume —</a> <br>
-							<a href="https://github.com/Suraj-Bansal" class="text-black-50" target="_blank">Github —</a> <br>							
-							<a href="https://twitter.com/SurajBansal2003" class="text-black-50" target="_blank">Twitter —</a> <br>
+							<a href="https://twitter.com/surajbansal2003" class="text-black-50" target="_blank">Twitter —</a> <br>
+							<a href="https://github.com/Suraj-Bansal" class="text-black-50" target="_blank">Github —</a> <br>
 							<a href="https://www.linkedin.com/in/suraj-bansal/" class="text-black-50" target="_blank">LinkedIn —</a> <br>
 							<a href="https://tks.life/profile/suraj.bansal" class="text-black-50" target="_blank">Portfolio —</a> <br>
 							<a href="https://medium.com/@bansalsuraj03" class="text-black-50" target="_blank">Medium —</a> <br>
@@ -421,13 +547,29 @@
 						
 					</div>
 					<div class="col-3">
-						<h3>| Contact Me Now</h3>
+						<h3>| CONTACT ME NOW</h3>
 						<a href="mailto:bansalsuraj03@gmail.com" class="text-black-50">bansalsuraj03@gmail.com</a> <br>
 						<a class="text-black-50">Phone Number and Calendly Available Upon Request</a> <br>
 					</div>
 				</div>
 			</div>
 		</section>
+		<section class="section section-dark section-contact" id="contact2">
+			<div class="fullwidth">
+				<div id="fixedFooter">
+					<div class="section-head">
+						<h2>SUMMARIZE AND LEARN MORE</h2>
+					</div> 
+					<p>Hey! My name is Suraj Bansal and I'm learning full-stack and machine learning development. I'm currently looking for growth opportunities with software development for public health or autonomous vehicles.</p>
+					<br>
+						<p>
+							<a href="malito:bansalsuraj03@gmail.com" class="text-black-50" target="_blank">Email | </a><a href="https://twitter.com/surajbansal2003" class="text-black-50" target="_blank">Twitter | </a> <a href="https://www.linkedin.com/in/suraj-bansal/" class="text-black-50" target="_blank">LinkedIn | </a><a href="https://github.com/Suraj-Bansal" class="text-black-50" target="_blank">Github</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
 		<!-- END: CONTACT -->
 
 		<!--START: FOOTER-->

@@ -1,32 +1,39 @@
-.fullwidth {
-    width: 100%;
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.footer-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 2rem;
 }
 
-#fixedFooter {
-    width: 90%;
-    margin-left: 5%;
+.copyright hr {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-width: 0.75px;
+    width: 50%
 }
 
-.col-6 {
-    width: 90vw;
-    float: left;
-    text-align: left;
-}
-
-.col-3 {
-    width: 95%;
-    float: left;
-    text-align: left;
-}
-
-.col-6 h3, .col-3 h3 { 
+.name:hover {
     font-weight: 500;
+    color: black;
+    opacity: 0.9;
 }
 
-.col-3 a:hover {
-    text-decoration: underline;
-    color: #303030;
+.footer-title {
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer-link {
+    text-align: right;
+    margin-right: 120px;
+}
+
+.reachout {
+    color: black;
+    opacity: 0.7;
+}
+
+.reachout:hover {
+    cursor: pointer;
+    font-weight: 700;
 }

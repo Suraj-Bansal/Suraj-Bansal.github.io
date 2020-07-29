@@ -11,17 +11,6 @@ function scrollFunction() {
   }
 }
 
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-    document.getElementById("navbar-mobile").style.top = "0";
-  } 
-  else {
-    document.getElementById("navbar-mobile").style.top = "-300px";
-  }
-}
-
 // Swiper 
 
 var swiper = new Swiper('.swiper-container', {

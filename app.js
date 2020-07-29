@@ -25,7 +25,7 @@ var swiper = new Swiper('.swiper-container', {
 
 var swiper = new Swiper('.swiper-container-mobile', {
    slidesPerView: 1,
-   spaceBetween: 30,
+   spaceBetween: 50,
    grabCursor: true,
  });
 

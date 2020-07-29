@@ -8,7 +8,8 @@
 
 body {
    scroll-behavior: smooth;
-   overflow-x: hidden;
+   overflow-x: hidden !important;
+   max-width: 100%;
 }
 
 /* Utility Classes */
@@ -81,12 +82,20 @@ h6 {
 /* Work Experience */
 
 .swiper-container-mobile {
-   max-width: 300px;
+   width: 300px !important;
    height: 125px;
    margin-left: auto;
    margin-right: auto;
 }
 
+.container-2 {
+   width: 300px;
+   overflow: hidden;
+}
+
+.swiper-wrapper {
+   width: auto;
+} 
 
 .experience-arrow {
    margin: 0;

@@ -150,3 +150,7 @@ h6 {
 .footer-links li{
    margin-right: 5px;
 }
+
+.fade-mobile {
+   opacity: 1;
+}

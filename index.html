@@ -1,645 +1,501 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Suraj Bansal</title>
-	<meta name="description" content="Suraj Bansal - Personal Website" />
-	<meta name="keywords" content="suraj, bansal, machine learning developer, AI enthusiast, healthcare, student, portfolio" />
-	<meta name="author" content="Suraj Bansal" />
-	<meta name="theme-color" content="#2a2d35">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel= "icon" href ="assets/images/favicon.png">
+   <meta name="description" content="Suraj Bansal - Personal Website" />
+	<meta name="keywords" content="suraj, bansal, student, technology, research, developer, healthcare, autonomous vehicles, ryde AI, machine learning, portfolio" />
+   <meta name="author" content="Suraj Bansal" />
 
-	<!-- Vendor Css-->
-	<link rel="stylesheet" href="assets/css/vendor.css" />	
+   <!-- CSS Files -->
+   <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" media = "screen and (max-width: 768px)" href="mobile.css">
+   <link rel="stylesheet" media = "screen and (min-width: 1100px)" href="widescreen.css">
 
-	<!-- SurajTemplate style Css -->
-	<link href="assets/css/suraj.css" rel="stylesheet">
+   <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
-	<!-- Custom style Css -->
-	<link href="assets/css/custom.css" rel="stylesheet">
-	<!-- Mobile Style Css-->
-	<link rel="stylesheet" media = "screen and (max-width: 768px)" href="assets/css/mobile.css">
+   <!-- Favicon -->
+   <link rel="icon" href="assets/images/favicon.png">
 
+   <!-- JQuery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+   <title>Suraj Bansal</title>
 </head>
+<body>
+   <div class="desktop">
+      <!-- Navbar -->
+      <nav id = "navbar">
+         <a href="#welcome" class="logo"><img src="assets/images/logo.png" style = "width:175px;height:30px"></a>
+         <ul class = "navbar_links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#software-projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+      </nav>
+      <!-- Landing Page -->
+      <header class = "section-1 welcome-text" id="welcome">
+         <h1 class = "fade">Suraj Bansal</h1>
+         <h3 class = "text-emphasis fade">I'M A
+            <span
+               class="txt-rotate fade"
+               data-period="2000"
+               data-rotate='[ "SOFTWARE DEVELOPER", "FOOD CONNOISSEUR", "GUITARIST", "COFFEE ENTHUSIAST" ]'></span>
+         </h3>
+         <ul class="socials fa-ul">
+            <li class="individual-social"><a href="malito:bansalsuraj03@gmail.com" target="_blank" class = "bounce fade"><i class="fa-li fa fa fa-envelope-o fa-2x"></i></a></li>
+            <li class="individual-social"><a href="https://github.com/Suraj-Bansal" target="_blank" class = "bounce fade"><i class="fa-li fa fab fa-github fa-2x"></i></a></li>
+            <li class="individual-social"><a href="https://twitter.com/SurajBansal2003" target="_blank" class = "bounce fade"><i class="fa-li fa fab fa-twitter fa-2x"></i></a></li>
+            <li class="individual-social"><a href="https://www.linkedin.com/in/suraj-bansal/" target="_blank" class = "bounce fade"><i class="fa-li fa fab fa-linkedin fa-2x"></i></a></li>
+            <li class="individual-social"><a href="https://medium.com/@bansalsuraj03" target="_blank" class = "bounce fade"><i class="fa-li fa fab fa-medium fa-2x"></i></a></li>
+         </ul>
+         <div class="nav">
+            <ul class="nav-links">
+               <li class = "fade"><a href="#software-projects"><span>Portfolio —</span></a></li>
+               <li class = "fade"><a href="assets/documents/Suraj Bansal- Resume.pdf" target="_blank"><span>Resume —</span></a></li>
+               <li class = "fade"><a href="#contact"><span>Contact Me —</span></a></li>
+            </ul>         
+         </div>
+      </header>
+      <!-- About Suraj -->
+      <section class="section section-2" id = "about">
+         <div class="container">
+            <div class="about-grid">
+               <div>
+                  <h4 class = "fade">Always Learning, <a href="#software-projects"><span class="spaced-underline">Always Coding</span></a></h4>
+                  <br>
+                  <p class = "fade">Hey there! My name is <span class = "text-emphasis p-bold">Suraj Bansal</span>- I'm a 16 y/o software developer from Toronto fascinated with healthcare innovation and autonomous vehicles. I'm currently developing open-source <a href = "https://ryde.netlify.app/" target="_blank" class = "text-emphasis p-bold p-spaced-underline" >autonomous vehicle software</a> and learning <span class = "text-emphasis p-bold"> full-stack development</span>.</p>
+                  <p class = "fade">You'll usually find me attempting to emulate my culinary idols- Gordon Ramsey and Jamie Olivier, learning new guitar covers, playing hockey, or studying philosophy. Reach out if you have startup ideas in <span class = "text-emphasis p-bold">software development</span>, an interesting <span class = "text-emphasis p-bold">Covid-19 research study</span>, or just talking over some cold brew!
+               </div>
+               <div class = "about-image fade">
+                  <img src="assets/images/about1.jpeg" style = "width:250px;height:250px">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Work Experience -->
+      <section class="section section-1" id="experience">
+         <div class="container">
+            <div class="section-head center-text uppercase">
+               <h2 class = "fade">Work Experience</h2>
+            </div>
+         </div>
+         <div class="swiper-container">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide shadow px-bounce fade">
+                  <div class = "experience-title">
+                     <h5>Prime Minister</h5>
+                     <h6>York Region Presidents' Council</h6>
+                  </div>
+                  <div class="experience-logo">
+                     <img src="assets/images/logos/yrpc.png" style = "width:65px;height65px">
+                  </div>
+               </div>
+               <div class="swiper-slide shadow px-bounce fade">
+                  <div class = "experience-title">
+                     <h5>Summer Intern</h5>
+                     <h6>Baylor Scott and White Health</h6>
+                  </div>
+                  <div class="experience-logo">
+                     <img src="assets/images/logos/bswhealth.png" style = "width:65px;height65px">
+                  </div>
+               </div>
+               <div class="swiper-slide shadow px-bounce fade">
+                  <div class = "experience-title">
+                     <h5>Research Volunteer</h5>
+                     <h6>St. Michaels Research Centre</h6>
+                  </div>
+                  <div class="experience-logo">
+                     <img src="assets/images/logos/unityhealth.png" style = "width:45px;height45px">
+                  </div>
+               </div>
+               <div class="swiper-slide shadow px-bounce fade">
+                  <div class = "experience-title">
+                     <h5>Youth Organizer</h5>
+                     <h6>TEDxYouth Toronto</h6>
+                  </div>
+                  <div class="experience-logo">
+                     <img src="assets/images/logos/tedx.png" style = "width:65px;height65px">
+                  </div>
+               </div>
+               <div class="swiper-slide shadow px-bounce fade">
+                  <div class = "experience-title">
+                     <h5>Website Developer</h5>
+                     <h6>Frontline Connect</h6>
+                  </div>
+                  <div class="experience-logo">
+                     <img src="assets/images/logos/frontlineconnect.png" style = "width:65px;height65px">
+                  </div>
+               </div>
+               <div class="swiper-slide shadow px-bounce fade">
+                  <div class = "experience-title">
+                     <h5>Innovator</h5>
+                     <h6>The Knowledge Society</h6>
+                  </div>
+                  <div class="experience-logo">
+                     <img src="assets/images/logos/tks.png" style = "width:65px;height65px">
+                  </div>
+               </div>
+               <div class="swiper-slide shadow px-bounce fade">
+                  <div class = "experience-title">
+                     <h5>Director of Logistics</h5>
+                     <h6>Richmond Hill Youth Action Committee</h6>
+                  </div>
+                  <div class="experience-logo">
+                     <img src="assets/images/logos/yac.png" style = "width:65px;height65px">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="swiper-buttons">
+            <div class="swiper-button-next fade"></div>
+            <div class="swiper-button-prev fade"></div>
+         </div>
+         <div class="container center-text high-emphasis-text italicize cta fade">
+            <h6>I'm always interested in growth opportunities for software development; I've linked my <a href = "assets/documents/Suraj Bansal- Resume.pdf" target = "_blank">resume</a> for your perusal!</h6>
+         </div>
+      </section>
+      <!-- Software Projects -->
+      <section class="section section-2" id="software-projects">
+         <div class="container">
+            <div class="section-head center-text uppercase fade">
+               <h2>Software Projects</h2>
+            </div>
+            <div class="project-grid">
+               <div class="project small-bounce fade">
+                  <h5><i class="fa fab fa-github rotate"></i><a href="https://github.com/aryanmisra/ryde" target = "_blank">Ryde AI</a></h5>
+                  <p>Open-source L2 self-driving car software to democratize autonomous vehicles with your smartphone.</p>
+                  <div class="project-row">
+                     <span class="dot-python"></span>
+                     <p>Python</p>
+                     <h6 class = "italicize low-emphasis-text p-spa"><a href = "https://ryde.netlify.app/" target = "_blank">Learn More!</a></h6>
+                  </div>
+               </div>
+               <div class="project small-bounce fade">
+                  <h5><i class="fa fab fa-github rotate"></i><a href="https://github.com/Suraj-Bansal/polyp-detection-model-" target = "_blank">Polyp Detection</a></h5>
+                  <p>Leveraged convolutional neural networks to achieve an accuracy rate 20% higher than industry.</p>
+                  <div class="project-row">
+                     <span class="dot-python"></span>
+                     <p>Python</p>
+                     <h6 class = "italicize low-emphasis-text p-spa"><a href = "https://www.youtube.com/watch?v=PpDxrAVjENg" target = "_blank">Learn More!</a></h6>
+                  </div>
+               </div>
+               <div class="project small-bounce fade">
+                  <h5><i class="fa fab fa-github rotate"></i><a href="https://github.com/Suraj-Bansal/LSTM-for-Apple-Stock-Predictions" target = "_blank">Apple Stock Prediction</a></h5>
+                  <p>Used LSTM Neural Networks to predict Apple stock prices from 2010-2016 with an accuracy of 98.3%.</p>
+                  <div class="project-row">
+                     <span class="dot-jupyter-notebook"></span>
+                     <p>Jupyter Notebook</p>
+                     <h6 class = "italicize low-emphasis-text p-spa"><a href = "https://medium.com/datadriveninvestor/predicting-apple-stock-prices-with-lstm-79456ba0b904" target = "_blank">Learn More!</a></h6>
+                  </div>
+               </div>
+               <div class="project small-bounce fade">
+                  <h5><i class="fa fab fa-github rotate"></i><a href="https://github.com/Suraj-Bansal/frontline-connect-canada" target = "_blank">Frontline Connect Website</a></h5>
+                  <p>Developed the website for a physician-led grassroots Covid-19 relief initiative targeting virtual communication in hospitals.</p>
+                  <div class="project-row">
+                     <span class="dot-html"></span>
+                     <p>HTML</p>
+                     <h6 class = "italicize low-emphasis-text p-spa"><a href = "https://www.loom.com/share/317594cf7a3140738a28239bd782c288" target = "_blank">Learn More!</a></h6>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Consulting Work -->
+      <section class="section section-1" id="consulting-work">
+         <div class="container">
+            <div class="section-head center-text uppercase fade">
+               <h2>Consulting Work</h2>
+            </div>
+            <div class="consulting-grid">
+               <div class="deck-cover center-text fade">
+                  <a href="assets/documents/sidewalklabs.pdf" class = "small-bounce" target="_blank"><img src="assets/images/sidewalklabs.png"></a>
+                  <p><a href="https://www.sidewalklabs.com/" class = "company">Sidewalk Labs</a> | Toronto</p>
+               </div>
+               <div class="deck-cover center-text fade">
+                  <a href="assets/documents/zappos.pdf" class = "small-bounce" target="_blank"><img src="assets/images/ryde.png"></a>
+                  <p><a href="https://www.zappos.com/" class = "company">Zappos</a> | Las Vegas</p>
+               </div>
+               <div class="deck-cover center-text fade">
+                  <a href="assets/documents/kidogo.pdf" class = "small-bounce" target="_blank"><img src="assets/images/kidogo.png"></a>
+                  <p><a href="https://www.kidogo.co/" class = "company">Kidogo</a> | Nairobi</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Footer Section -->
+      <section class="footer section-2" id="contact">
+         <div class="container fade">
+            <div class = "center-text"><img src="assets/images/logo.png" style = "height:40px;width:auto"></div>
+            <div class="footer-links center-text">
+               <ul>
+                  <li>
+                     <a href="malito:bansalsuraj03@gmail.com" target="_blank">Email</a>
+                  </li>
+                  <li>
+                     <p>|</p>
+                  </li>
+                  <li>
+                     <a href="https://twitter.com/surajbansal2003" target="_blank">Twitter</a>
+                  </li>
+                  <li>
+                     <p>|</p>
+                  </li>
+                  <li>
+                     <a href="https://www.linkedin.com/in/suraj-bansal/" target="_blank">LinkedIn</a>
+                  </li>
+                  <li>
+                     <p>|</p>
+                  </li>
+                  <li>
+                     <a href="https://github.com/Suraj-Bansal" target="_blank">Github</a>
+                  </li>
+               </ul>
+            </div>
+            <hr>
+            <div class="copyright center-text medium-emphasis-text">
+               <p>Developed by <span class="p-bold text-emphasis">Suraj Bansal</span> | All Rights Reserved</p>
+            </div>
+         </div>
+      </section>
+   </div>
+   <div class="mobile">
 
-<body data-spy="scroll" data-target=".navbar">
-
-	<!-- START: Preloader -->
-	<div id="preloader" class="preloader">
-		<div class="spinner-grow text-dark" role="status">
-			<span class="sr-only">Loading...</span>
-		</div>
-	</div>
-	<!-- END: Preloader -->
-
-    <div class="page-wrapper">
-
-		<nav class="navbar navbar-expand-lg navbar-custom navbar-light fixed-top">
-			<div class="container">
-
-				<a class="navbar-brand  mr-auto " href="index.html">SURAJ.
-					<!-- <img src="assets/images/logo.png" alt="Logo"> -->
-				</a>
-
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-					<svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="60"><path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"></path><path class="line middle" d="m 30,50 h 40"></path><path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"></path></svg>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarToggler">
-					<ul class="navbar-nav ml-auto">
-						<li><a class="nav-link active" href="#home">HOME</a></li>
-						<li><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
-						<li><a class="nav-link" href="#projects1">PROJECTS</a></li>
-						<li><a class="nav-link" href="#content">CONTENT</a></li>
-						<li><a class="nav-link" href="#contact1">CONTACT</a></li>
-					</ul>
-				</div>
-		</nav>
-
-		<!-- START: HOME -->		
-    	<section class="section-home " id="home">
-    		<div class="overlay d-flex justify-content-center align-items-center">
-					<img src="assets/images/headerpicture.jpg" class = "image1">
-					<img src="assets/images/phoneheader.jpg" class = "image2">
-    			<div class="overlay-wrap section-head">
-	 	   			<h1>Suraj Bansal</h1>
-				</div>
- 	   		</div>
-			<!-- particles.js container --> 
-    		<div id="particles-js"></div>
-		</section>	
-    	<!-- END: HOME -->
-
-		<!-- START: ABOUT -->
-		<section class="section section-about" id="about">
-
-			<div class="section-about-wrap">
-
-				<div class="row justify-content-center align-items-center">
-					
-					<div class="col-md-7">
-						<div class="about-desc">
-							<div class="about-desc-content">
-								<h2>ABOUT SURAJ—</h2>
-								<p class="mt-4 font-weight-light">Hey there! I'm 16 and currently learning full-stack and machine learning development. I'm currently interested in public health and autonomous vehicles, specifically their intersections with AI. Recent work involves polyp detection and  financial prediction models, open-source autonomous vehicles software and consulting work for Sidewalk Labs and Kidogo. Let's talk more!</p>
-							</div>
-							<ul class="about-desc-social mt-4 list-unstyled list-inline">
-								<li class="list-inline-item"><a href="https://twitter.com/SurajBansal2003" target="_blank"><i class="fab fa-twitter"></i></a></li>
-		                  <li class="list-inline-item"><a href="https://github.com/Suraj-Bansal" target="_blank"><i class="fab fa-github"></i></a></li>
-								<li class="list-inline-item"><a href="https://www.linkedin.com/in/suraj-bansal/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-		                  <li class="list-inline-item"><a href="https://medium.com/@bansalsuraj03" target="_blank"><i class="fab fa-medium"></i></a></li>
-		              </ul>
-						</div>
-					</div>
-
-					<div class="col-md-5 d-none d-md-block">
-						<img class="img-fluid img-thumbnail" src="assets/images/aboutme.jpg" alt="About Me Picture">
-					</div>
-				</div>
-			</div>
-
-		</section>
-		<!-- END: ABOUT -->
-
-		<!-- START: RESUME -->
-		<section class="section section-dark section-resume" id="portfolio">
-			<div class="container">
-				<div class="section-head">
-					<h2>PORTFOLIO</h2>
-				</div>
-
-				<div class="row mt-7">
-					<div class="col-sm-6 col-lg-6">
-						<h5 class="section-subHead mt-0"> My Experience—</h5>
-						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s">
-							<div>
-								<h5>Keenan Research Summer Student</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">June 2019 | St. Michaels Research Centre</h6>
-								<p>Volunteered with research constructing virtual reality polypectomy simulations for UofT gastroenterology residents.</p>
-							</div>
-						</div>
-						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-							<div>
-								<h5>Summer Intern</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">August 2019 | Baylor Scott and White Health</h6>
-								<p>Shadowed physicians in Internal Medicine, Trauma and Cardiovascular Diseases for rounds and procedures in the Dallas, Texas location.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-lg-6">
-						<h5 class="section-subHead mt-10"> My Education—</h5>
-						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s">
-							<div>
-								<h5>Bayview Secondary School</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">September 2017 - Present</h6>
-								<p>International Baccalaureate Diploma candidate and honours student. Grade 11 Average: 96%.</p>
-							</div>
-						</div>
-						<div class="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-							<div>
-								<h5>The Knowledge Society</h5>
-								<h6 class="badge badge-dark d-inline-block my-3">September 2019 - Present</h6>
-								<p>World Economic Forum school that emulates MIT, Stanford and Harvard education model's while replicating Silicon Valley environment to provide Olympic-level CEO training.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</section>
-		<!-- END: RESUME -->
-
-		<!--START: PROJECTS -->   
-		<section class="section section-work" id="projects1">
-			<div class="container">
-				<div class="section-head text-center">
-					<h2>My Work and Projects</h2>
-				</div>
-			</div>
-			<div class="container swiper-container swiper-portfolio wow fadeInUp" data-wow-duration="1.5s">
-				<div class=" swiper-wrapper">
-
-					<div class="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="assets/RydeDeck.pdf" target="_blank" class="portfolio-item--content">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/rydedeck1.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">RYDE STANDALONE DECK</h3>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="assets/Kidogo.pdf" target="_blank" class="portfolio-item--content">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/kidogochallenge.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">KIDOGO CONSULTING RECOMMENDATION</h3>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide  slideshow" data-groups="all slideshow">
-						<a href="https://github.com/Suraj-Bansal/polyp-detection-model-" target="_blank" class="portfolio-item--content">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/polypscnn.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">POLYP DETECTION MODEL</h3>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="https://ryde.netlify.app/" target="_blank" class="portfolio-item--content">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/ryde.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">RYDE- OPEN-SOURCE SELF-DRIVING CAR SOFTWARE</h3>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="https://drive.google.com/file/d/10nBSPSkaKlkVn7yOUCLjWkNUwt6DJEsD/view?usp=sharing" target="_blank" class="portfolio-item--content">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/sidewalklabs.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">SIDEWALK LABS CONSULTING RECOMMENDATION</h3>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide  slideshow" data-groups="all slideshow">
-						<a href="https://github.com/Suraj-Bansal/Recurrent-Neural-Network-for-Google-Stock-Price-Prediction" target="_blank" class="portfolio-item--content">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/stocklstm.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">APPLE STOCK AND FINANCIAL PREDICTIONS</h3>
-								</div>
-							</div>
-						</a>
-					</div>
-
-				</div>
-				<div class="portfolio-pagination">
-					
-				</div>
-			</div>
-		</section>
-		<section class="section section-work" id="projects2">
-			<div class="container">
-				<div class="section-head text-center">
-					<h2>My Work and Projects</h2>
-				</div>
-			</div>
-			<div class="container swiper-container swiper-portfolio wow fadeInUp" data-wow-duration="1.5s">
-				<div class=" swiper-wrapper">
-
-					<div class="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="assets/RydeDeck.pdf" target="_blank" class="portfolio-item--content">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/rydedeck2.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">RYDE STANDALONE DECK</h3>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="assets/Kidogo.pdf" target="_blank" class="portfolio-item--content">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/kidogosmall.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">KIDOGO CONSULTING RECOMMENDATION</h3>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide  slideshow" data-groups="all slideshow">
-						<a href="https://github.com/Suraj-Bansal/polyp-detection-model-" target="_blank" class="portfolio-item--content">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/polypsmall.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">POLYP DETECTION MODEL</h3>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="https://ryde.netlify.app/" target="_blank" class="portfolio-item--content">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/rydesmall.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">RYDE- OPEN-SOURCE SELF-DRIVING CAR SOFTWARE</h3>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="https://drive.google.com/file/d/10nBSPSkaKlkVn7yOUCLjWkNUwt6DJEsD/view?usp=sharing" target="_blank" class="portfolio-item--content">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/swl.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">SIDEWALK LABS CONSULTING RECOMMENDATION</h3>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div class="portfolio-item swiper-slide  slideshow" data-groups="all slideshow">
-						<a href="https://github.com/Suraj-Bansal/Recurrent-Neural-Network-for-Google-Stock-Price-Prediction" target="_blank" class="portfolio-item--content">
-							<div class="portfolio-item--img b-box">
-								<img src="assets/images/smalllstm.jpg" class="img-fluid mx-auto" alt="work-img">
-							</div>
-							<div class="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div class="portfolio-item--desc-in">
-									<h3 class="mb-2 text-white">APPLE STOCK AND FINANCIAL PREDICTIONS</h3>
-								</div>
-							</div>
-						</a>
-					</div>
-
-				</div>
-				<div class="portfolio-pagination">
-					
-				</div>
-			</div>
-		</section>
-		<!--END: PROJECTS -->
-
-		<!-- START: CTA -->
-		<section class="section section-freelance section-light text-center" id = "connect1" style="background-image:url(../assets/images/microphone.JPG)">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-head wow fadeInUp" data-wow-duration="1.5s">
-							<h2>Let's work together!</h2>
-						</div>
-						<div class="mt-5 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-							<a href="./assets/SurajResume.pdf" target="_blank" class="btn btn-outline hover-state">MY RESUME</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="section section-freelance section-light text-center" id = "connect2" style="background-image:url(../assets/images/work.jpg)">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-head wow fadeInUp" data-wow-duration="1.5s">
-							<h2>Let's work together!</h2>
-						</div>
-						<div class="mt-5 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-							<a href="./assets/SurajResume.pdf" target="_blank" class="btn btn-outline hover-state">MY RESUME</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END: CTA -->
-
-		<!-- START: CONTENT -->
-		<section class="section section-light section-blog" id="content">
-			<div class="container">   
-				<div class="section-head">
-					<h2>MY ARTICLES AND VIDEOS</h2>
-				</div>                 
-				<div class="mt-5">
-					<div class="swiper-container swiper-blog">
-						<div class="swiper-wrapper">
-							<a href="https://youtu.be/PpDxrAVjENg" target="_blank" class="swiper-slide blog-list b-box hover-state d-block mb-4">
-								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s">
-									<img src="assets/images/polypdetection.jpg" alt="Blog Image" class="img-fluid">
-									<div class="blog-list--details d-flex justify-content-center align-items-center">
-										<div class="blog-list--details-in">
-											<p class="blog-by text-white">Suraj Bansal</p>
-											<span class="blog-duration text-white">9-Minute Watch</span>
-										</div>
-									</div>
-								</div>
-								<div class="blog-list--desc p-3">
-									<p>Polyp Detection with Convolutional Neural Networks Explained</p>
-									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Artificial Intelligence</span>
-								</div>
-							</a>				
-							<a href="https://medium.com/@bansalsuraj03/breaking-news-crispr-cas-9-cures-16-year-old-boys-caffeine-addiction-775e02658c8d" target="_blank" class="swiper-slide blog-list b-box hover-state d-block mb-4">
-								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".2s">
-									<img src="assets/images/coffeegenomics.jpg" alt="Blog Image" class="img-fluid">
-									<div class="blog-list--details d-flex justify-content-center align-items-center">
-										<div class="blog-list--details-in">
-											<p class="blog-by text-white">Suraj Bansal</p>
-											<span class="blog-duration text-white">6-Minute Read</span>
-										</div>
-									</div>
-								</div>
-								<div class="blog-list--desc p-3">
-									<p>BREAKING NEWS: CRISPR Cas-9 Cures 16 year old boy's caffeine addiction</p>
-									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Genomics</span>
-								</div>
-							</a>
-							<a href="https://www.youtube.com/watch?v=uxch5us6fFs&app=desktop" target="_blank"  class="swiper-slide blog-list b-box hover-state d-block mb-4">
-								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".4s">
-									<img src="assets/images/ryde1.jpg" alt="Blog Image" class="img-fluid">
-									<div class="blog-list--details d-flex justify-content-center align-items-center">
-										<div class="blog-list--details-in">
-											<p class="blog-by text-white">Suraj Bansal</p>
-											<span class="blog-duration text-white">12-Minute Watch</span>
-										</div>
-									</div>
-								</div>
-								<div class="blog-list--desc p-3">
-									<p>Autonomous Vehicles Explained and Introducing Ryde</p>
-									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Autonomous Vehicles</span>
-								</div>
-							</a>
-							<a href="https://medium.com/datadriveninvestor/data-pre-processing-with-scikit-learn-9896c561ef2f" target="_blank" class="swiper-slide blog-list b-box hover-state d-block mb-4">
-								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".2s">
-									<img src="assets/images/pre-processing.jpg" alt="Blog Image" class="img-fluid">
-									<div class="blog-list--details d-flex justify-content-center align-items-center">
-										<div class="blog-list--details-in">
-											<p class="blog-by text-white">Suraj Bansal</p>
-											<span class="blog-duration text-white">7-Minute Read</span>
-										</div>
-									</div>
-								</div>
-								<div class="blog-list--desc p-3">
-									<p>Introduction to Data Preprocessing with Scikit-Learn</p>
-									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Data Preprocessing</span>
-								</div>
-							</a>
-							<a href="https://medium.com/datadriveninvestor/the-math-and-intuition-behind-gradient-descent-13c45f367a11" target="_blank" class="swiper-slide blog-list b-box hover-state d-block mb-4">
-								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
-									<img src="assets/images/gradientdescent.jpg" alt="Blog Image" class="img-fluid">
-									<div class="blog-list--details d-flex justify-content-center align-items-center">
-										<div class="blog-list--details-in">
-											<p class="blog-by text-white">Suraj Bansal</p>
-											<span class="blog-duration text-white">10-Minute Read</span>
-										</div>
-									</div>
-								</div>
-								<div class="blog-list--desc p-3">
-									<p>Gradient Descent- Exploring the Math and Intuition </p>
-									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Artificial Intelligence</span>
-								</div>
-								<a href="https://medium.com/datadriveninvestor/rl-explained-reinforcing-the-intuition-and-math-fd1185369186" target="_blank" class="swiper-slide blog-list b-box hover-state d-block mb-4">
-									<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".4s">
-										<img src="assets/images/RLexplained.jpg" alt="Blog Image" class="img-fluid">
-										<div class="blog-list--details d-flex justify-content-center align-items-center">
-											<div class="blog-list--details-in">
-												<p class="blog-by text-white">Suraj Bansal</p>
-												<span class="blog-duration text-white">9-Minute Read</span>
-											</div>
-										</div>
-									</div>
-									<div class="blog-list--desc p-3">
-										<p>RL Explained- Reinforcing  Mathematical and Intuitive Concepts</p>
-										<span class="d-block text-center mt-3 font-weight-bold blog-cat">Artificial Intelligence</span>
-									</div>
-								</a>
-								<a href="https://medium.com/datadriveninvestor/revolutionizing-polypectomies-with-convolutional-neural-networks-76d686ce995a" target="_blank" class="swiper-slide blog-list b-box hover-state d-block mb-4">
-									<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".4s">
-										<img src="assets/images/polypscnn.jpg" alt="Blog Image" class="img-fluid">
-										<div class="blog-list--details d-flex justify-content-center align-items-center">
-											<div class="blog-list--details-in">
-												<p class="blog-by text-white">Suraj Bansal</p>
-												<span class="blog-duration text-white">9-Minute Read</span>
-											</div>
-										</div>
-									</div>
-									<div class="blog-list--desc p-3">
-										<p>Revolutionizing Polypectomies with Convolutional Neural Networks</p>
-										<span class="d-block text-center mt-3 font-weight-bold blog-cat">Artificial Intelligence</span>
-									</div>
-							</a>
-							</a>
-							<a href="https://medium.com/datadriveninvestor/convolutional-neural-networks-explained-7fafea4de9c9" target="_blank"  class="swiper-slide blog-list b-box hover-state d-block mb-4">
-								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".4s">
-									<img src="assets/images/cnnsexplained.jpg" alt="Blog Image" class="img-fluid">
-									<div class="blog-list--details d-flex justify-content-center align-items-center">
-										<div class="blog-list--details-in">
-											<p class="blog-by text-white">Suraj Bansal</p>
-											<span class="blog-duration text-white">7-Minute Read</span>
-										</div>
-									</div>
-								</div>
-								<div class="blog-list--desc p-3">
-									<p>Convolutional Neural Networks and Image Explained</p>
-									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Artificial Intelligence</span>
-								</div>
-							</a>
-							<a href="https://www.youtube.com/watch?v=yvouUpxIqts" target="_blank" class="swiper-slide blog-list b-box hover-state d-block mb-4">
-								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".4s">
-									<img src="assets/images/mlintro.jpg" alt="Blog Image" class="img-fluid">
-									<div class="blog-list--details d-flex justify-content-center align-items-center">
-										<div class="blog-list--details-in">
-											<p class="blog-by text-white">Suraj Bansal</p>
-											<span class="blog-duration text-white">7-Minute Watch</span>
-										</div>
-									</div>
-								</div>
-								<div class="blog-list--desc p-3">
-									<p>Introduction to Machine Learning Algorithms</p>
-									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Artificial Intelligence</span>
-								</div>
-							</a>
-							<a href="https://medium.com/datadriveninvestor/predicting-apple-stock-prices-with-lstm-79456ba0b904" target="_blank"  class="swiper-slide blog-list b-box hover-state d-block mb-4">
-								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".4s">
-									<img src="assets/images/stock.jpg" alt="Blog Image" class="img-fluid">
-									<div class="blog-list--details d-flex justify-content-center align-items-center">
-										<div class="blog-list--details-in">
-											<p class="blog-by text-white">Suraj Bansal</p>
-											<span class="blog-duration text-white">8-Minute Read</span>
-										</div>
-									</div>
-								</div>
-								<div class="blog-list--desc p-3">
-									<p>Apple stock predictions with LSTM's- accuracy rate of 98.3%</p>
-									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Artificial Intelligence</span>
-								</div>
-							</a>
-							<a href="https://medium.com/datadriveninvestor/markov-decision-processes-learning-some-math-b82448169927" target="_blank" class="swiper-slide blog-list b-box hover-state d-block mb-4">
-								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".4s">
-									<img src="assets/images/markovs.png" alt="Blog Image" class="img-fluid">
-									<div class="blog-list--details d-flex justify-content-center align-items-center">
-										<div class="blog-list--details-in">
-											<p class="blog-by text-white">Suraj Bansal</p>
-											<span class="blog-duration text-white">7-Minute Read</span>
-										</div>
-									</div>
-								</div>
-								<div class="blog-list--desc p-3">
-									<p>Markovs Decision Processes- Math and Theorems</p>
-									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Artificial Intelligence</span>
-								</div>
-							</a>
-							<a href="https://medium.com/datadriveninvestor/autonomous-vehicle-technology-explained-42bd71badd90" target="_blank" class="swiper-slide blog-list b-box hover-state d-block mb-4">
-								<div class="blog-list--img wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".4s">
-									<img src="assets/images/av.png" alt="Blog Image" class="img-fluid">
-									<div class="blog-list--details d-flex justify-content-center align-items-center">
-										<div class="blog-list--details-in">
-											<p class="blog-by text-white">Suraj Bansal</p>
-											<span class="blog-duration text-white">6-Minute Read</span>
-										</div>
-									</div>
-								</div>
-								<div class="blog-list--desc p-3">
-									<p>Autonomous Vehicle Technology Explained</p>
-									<span class="d-block text-center mt-3 font-weight-bold blog-cat">Autonomous Vehicles</span>
-								</div>
-							</a>
-						</div>
-
-						<div class="swiper-progressbar"></div>
-						
-						<div class="blog-viewmore text-center pb-5">
-							<a href="https://tks.life/profile/suraj.bansal" target="_blank" class="mt-5 btn hover-state">FULL PORTFOLIO!</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END: CONTENT -->
-
-		<!-- START: CONTACT -->
-		<section class="section section-dark section-contact" id = "contact1">
-			<div class="container footer-container">
-				<div>
-					<h4 class = "footer-title">GIVE ME A SUMMARY</h4>
-					<p>Hey there! My name is Suraj Bansal. I'm a student developer based in Toronto that's currently focused on machine learning development and full-stack development. Some recent work involves building open-source autonomous vehicle software to democratize the industry and break the affordability barrier. I'm currently seeking growth opportunities in software development for autonomous vehicles or healthcare innovation- reach out anytime!</p>
-				</div>
-				<div>
-					<h4 class = "footer-title">LEARN MORE</h4>
-					<ul>
-						<li class = "footer-link">
-							<a href="assets/resume/SurajResume.pdf" class="reachout"target="_blank">— Resume —</a>
-						</li>
-						<li class = "footer-link">
-							<a href="https://github.com/Suraj-Bansal" class="reachout" target="_blank">— Github —</a>
-						</li>
-						<li class = "footer-link">
-							<a href="https://twitter.com/surajbansal2003" class="reachout" target="_blank">— Twitter —</a>
-						</li>
-						<li class = "footer-link">
-							<a href="https://www.linkedin.com/in/suraj-bansal/" class="reachout" target="_blank">— LinkedIn —</a>
-						</li>
-						<li class = "footer-link">
-							<a href="mailto:bansalsuraj03@gmail.com" class="reachout">— Contact Email —</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-		<section class="section section-dark section-contact" id="contact2">
-			<div class="container">
-				<div class="section-head">
-					<h2>SUMMARIZE AND LEARN MORE</h2>
-				</div> 
-				<p>Hey! My name is Suraj Bansal and I'm learning full-stack and machine learning development. I'm currently looking for growth opportunities with software development for public health or autonomous vehicles.</p>
-				<br>
-					<p>
-						<a href="malito:bansalsuraj03@gmail.com" class="text-black-50" target="_blank">Email | </a><a href="https://twitter.com/surajbansal2003" class="text-black-50" target="_blank">Twitter | </a> <a href="https://www.linkedin.com/in/suraj-bansal/" class="text-black-50" target="_blank">LinkedIn | </a><a href="https://github.com/Suraj-Bansal" class="text-black-50" target="_blank">Github</a>
-					</p>
-				</div>
-			</div>
-		</section>
-		
-		<!-- END: CONTACT -->
-
-		<!--START: FOOTER-->
-		<footer class="footer section section-light">
-			<div class="container copyright">
-				<hr>
-				<p class="copyright text-center mb-0">Developed by <span class="name">Suraj Bansal</span> | All Right Reserved</p>
-			</div>
-		</footer>
-		<!--END: FOOTER-->
-	</div>
-
-
-	<!-- JAVASCRIPTS -->
-
-	<script src="assets/js/vendor.js"></script>
-	<script src="assets/js/smooth-scroll.js"></script>
-	
-	<!-- Particles js -->
-	<script src="assets/js/particles.min.js"></script> 
-	<script src="assets/js/particlesjs-config-2.js"></script>
-
-	<!-- Custom Js -->
-	<script src="assets/js/custom.js"></script>
+      <!-- Landing Page -->
+      <header class = "section-1 welcome-text" id="welcome">
+         <h1>Suraj Bansal</h1>
+         <h3 class = "text-emphasis">I'M A
+            <span
+               class="txt-rotate"
+               data-period="2000"
+               data-rotate='[ "SOFTWARE DEVELOPER", "FOOD CONNOISSEUR", "GUITARIST", "COFFEE ENTHUSIAST" ]'></span>
+         </h3>
+         <ul class="socials fa-ul">
+            <li class="individual-social"><a href="malito:bansalsuraj03@gmail.com" target="_blank" class = "bounce"><i class="fa-li fa fa fa-envelope-o fa-2x"></i></a></li>
+            <li class="individual-social"><a href="https://github.com/Suraj-Bansal" target="_blank" class = "bounce"><i class="fa-li fa fab fa-github fa-2x"></i></a></li>
+            <li class="individual-social"><a href="https://twitter.com/SurajBansal2003" target="_blank" class = "bounce"><i class="fa-li fa fab fa-twitter fa-2x"></i></a></li>
+            <li class="individual-social"><a href="https://www.linkedin.com/in/suraj-bansal/" target="_blank" class = "bounce"><i class="fa-li fa fab fa-linkedin fa-2x"></i></a></li>
+            <li class="individual-social"><a href="https://medium.com/@bansalsuraj03" target="_blank" class = "bounce"><i class="fa-li fa fab fa-medium fa-2x"></i></a></li>
+         </ul>
+         <div class="nav">
+            <ul class="nav-links">
+               <li><a href="#experience-mobile"><span>Experience —</span></a></li>
+               <li><a href="#software-projects-mobile"><span>Projects —</span></a></li>
+               <li><a href="assets/documents/Suraj Bansal- Resume.pdf" target="_blank"><span>Resume —</span></a></li>
+            </ul>         
+         </div>
+      </header>
+      <!-- About Suraj -->
+      <section class="section section-2" id = "about">
+         <div class="container">
+            <div class="about-grid">
+               <div>
+                  <h4>Always Learning, <a href="#software-projects-mobile"><span class="spaced-underline">Always Coding</span></a></h4>
+                  <br>
+                  <p>Hey there! My name is <span class = "text-emphasis p-bold">Suraj Bansal</span>- I'm a 16 y/o software developer from Toronto fascinated with healthcare innovation and autonomous vehicles. I'm currently developing open-source <a href = "https://ryde.netlify.app/" target="_blank" class = "text-emphasis p-bold p-spaced-underline" >autonomous vehicle software</a> and learning <span class = "text-emphasis p-bold"> full-stack development</span>.</p>
+                  <p>You'll usually find me attempting to emulate my culinary idols- Gordon Ramsey and Jamie Olivier, learning new guitar covers, playing hockey, or studying philosophy. Reach out if you have startup ideas in <span class = "text-emphasis p-bold">software development</span>, an interesting <span class = "text-emphasis p-bold">Covid-19 research study</span>, or just talking over some cold brew!
+               </div>
+               <div class = "about-image center-text">
+                  <img src="assets/images/about1.jpeg" style = "width:250px;height:250px">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Work Experience -->
+      <section class="section section-1" id="experience-mobile">
+         <div class="container">
+            <div class="section-head center-text uppercase">
+               <h2>Work Experience</h2>
+            </div>
+            <div class="center-text experience-arrow low-emphasis-text">
+               <p><span class="text-emphasis high-emphasis-text"> ←  </span>Drag left or right to view more <span class="text-emphasis high-emphasis-text">  → </span></p>
+            </div>
+         </div>
+         <div class="swiper-container-mobile">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide shadow px-bounce">
+                  <div class = "experience-title">
+                     <h5>Prime Minister</h5>
+                     <h6>The York Region Presidents' Council</h6>
+                  </div>
+                  <div class="experience-logo">
+                     <img src="assets/images/logos/yrpc.png" style = "width:65px;height65px">
+                  </div>
+               </div>
+               <div class="swiper-slide shadow px-bounce">
+                  <div class = "experience-title">
+                     <h5>Summer Intern</h5>
+                     <h6>Baylor Scott and White Health</h6>
+                  </div>
+                  <div class="experience-logo">
+                     <img src="assets/images/logos/bswhealth.png" style = "width:65px;height65px">
+                  </div>
+               </div>
+               <div class="swiper-slide shadow px-bounce">
+                  <div class = "experience-title">
+                     <h5>Research Volunteer</h5>
+                     <h6>St. Michaels Research Centre</h6>
+                  </div>
+                  <div class="experience-logo">
+                     <img src="assets/images/logos/unityhealth.png" style = "width:45px;height45px">
+                  </div>
+               </div>
+               <div class="swiper-slide shadow px-bounce">
+                  <div class = "experience-title">
+                     <h5>Youth Organizer</h5>
+                     <h6>TEDxYouth Toronto</h6>
+                  </div>
+                  <div class="experience-logo">
+                     <img src="assets/images/logos/tedx.png" style = "width:65px;height65px">
+                  </div>
+               </div>
+               <div class="swiper-slide shadow px-bounce">
+                  <div class = "experience-title">
+                     <h5>Website Developer</h5>
+                     <h6>Frontline Connect</h6>
+                  </div>
+                  <div class="experience-logo">
+                     <img src="assets/images/logos/frontlineconnect.png" style = "width:65px;height65px">
+                  </div>
+               </div>
+               <div class="swiper-slide shadow px-bounce">
+                  <div class = "experience-title">
+                     <h5>Innovator</h5>
+                     <h6>The Knowledge Society</h6>
+                  </div>
+                  <div class="experience-logo">
+                     <img src="assets/images/logos/tks.png" style = "width:65px;height65px">
+                  </div>
+               </div>
+               <div class="swiper-slide shadow px-bounce">
+                  <div class = "experience-title">
+                     <h5>Director of Logistics</h5>
+                     <h6>Richmond Hill Youth Action Committee</h6>
+                  </div>
+                  <div class="experience-logo">
+                     <img src="assets/images/logos/yac.png" style = "width:65px;height65px">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container center-text high-emphasis-text italicize cta">
+            <h6>I'm always interested in growth opportunities for software development; I've linked my <a href = "assets/documents/Suraj Bansal- Resume.pdf" target = "_blank">resume</a> for your perusal!</h6>
+         </div>
+      </section>
+      <!-- Software Projects -->
+      <section class="section section-2" id="software-projects-mobile">
+         <div class="container">
+            <div class="section-head center-text uppercase">
+               <h2>Software Projects</h2>
+            </div>
+            <div class="project-grid">
+               <div class="project small-bounce">
+                  <h5><i class="fa fab fa-github rotate"></i><a href="https://github.com/aryanmisra/ryde" target = "_blank">Ryde AI</a></h5>
+                  <p>Open-source L2 self-driving car software to democratize autonomous vehicles with your smartphone.</p>
+                  <div class="project-row">
+                     <span class="dot-python"></span>
+                     <p>Python</p>
+                     <h6 class = "italicize low-emphasis-text p-spa"><a href = "https://ryde.netlify.app/" target = "_blank">Learn More!</a></h6>
+                  </div>
+               </div>
+               <div class="project small-bounce">
+                  <h5><i class="fa fab fa-github rotate"></i><a href="https://github.com/Suraj-Bansal/polyp-detection-model-" target = "_blank">Polyp Detection</a></h5>
+                  <p>Leveraged convolutional neural networks to achieve an accuracy rate 20% higher than industry.</p>
+                  <div class="project-row">
+                     <span class="dot-python"></span>
+                     <p>Python</p>
+                     <h6 class = "italicize low-emphasis-text p-spa"><a href = "https://www.youtube.com/watch?v=PpDxrAVjENg" target = "_blank">Learn More!</a></h6>
+                  </div>
+               </div>
+               <div class="project small-bounce">
+                  <h5><i class="fa fab fa-github rotate"></i><a href="https://github.com/Suraj-Bansal/LSTM-for-Apple-Stock-Predictions" target = "_blank">Stock Prediction</a></h5>
+                  <p>Used LSTM Neural Networks to predict Apple stock prices from 2010-2016 with an accuracy of 98.3%.</p>
+                  <div class="project-row">
+                     <span class="dot-jupyter-notebook"></span>
+                     <p>Jupyter Notebook</p>
+                     <h6 class = "italicize low-emphasis-text p-spa"><a href = "https://medium.com/datadriveninvestor/predicting-apple-stock-prices-with-lstm-79456ba0b904" target = "_blank">Learn More!</a></h6>
+                  </div>
+               </div>
+               <div class="project small-bounce">
+                  <h5><i class="fa fab fa-github rotate"></i><a href="https://github.com/Suraj-Bansal/frontline-connect-canada" target = "_blank">Frontline Connect</a></h5>
+                  <p>Developed the website for a physician-led grassroots Covid-19 relief initiative for virtual communication in hospitals.</p>
+                  <div class="project-row">
+                     <span class="dot-html"></span>
+                     <p>HTML</p>
+                     <h6 class = "italicize low-emphasis-text p-spa"><a href = "https://www.loom.com/share/317594cf7a3140738a28239bd782c288" target = "_blank">Learn More!</a></h6>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Consulting Work -->
+      <section class="section section-1" id="consulting-work">
+         <div class="container">
+            <div class="section-head center-text uppercase">
+               <h2>Consulting Work</h2>
+            </div>
+            <div class="consulting-grid">
+               <div class="deck-cover center-text">
+                  <a href="assets/documents/sidewalklabs.pdf" class = "small-bounce" target="_blank"><img src="assets/images/sidewalklabs.png"></a>
+                  <p><a href="https://www.sidewalklabs.com/" class = "company">Sidewalk Labs</a> | Toronto</p>
+               </div>
+               <div class="deck-cover center-text">
+                  <a href="assets/documents/zappos.pdf" class = "small-bounce" target="_blank"><img src="assets/images/ryde.png"></a>
+                  <p><a href="https://www.zappos.com/" class = "company">Zappos</a> | Las Vegas</p>
+               </div>
+               <div class="deck-cover center-text">
+                  <a href="assets/documents/kidogo.pdf" class = "small-bounce" target="_blank"><img src="assets/images/kidogo.png"></a>
+                  <p><a href="https://www.kidogo.co/" class = "company">Kidogo</a> | Nairobi</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Footer Section -->
+      <section class="footer section-2" id="mobile-contact">
+         <div class="container">
+            <div class = "center-text"><img src="assets/images/logo.png" style = "height:40px;width:auto"></div>
+            <div class="footer-links center-text">
+               <ul>
+                  <li>
+                     <a href="malito:bansalsuraj03@gmail.com" target="_blank">Email</a>
+                  </li>
+                  <li>
+                     <p>|</p>
+                  </li>
+                  <li>
+                     <a href="https://twitter.com/surajbansal2003" target="_blank">Twitter</a>
+                  </li>
+                  <li>
+                     <p>|</p>
+                  </li>
+                  <li>
+                     <a href="https://www.linkedin.com/in/suraj-bansal/" target="_blank">LinkedIn</a>
+                  </li>
+                  <li>
+                     <p>|</p>
+                  </li>
+                  <li>
+                     <a href="https://github.com/Suraj-Bansal" target="_blank">Github</a>
+                  </li>
+               </ul>
+            </div>
+            <hr>
+            <div class="copyright center-text medium-emphasis-text">
+               <p>Developed by <span class="p-bold text-emphasis">Suraj Bansal</span> | All Rights Reserved</p>
+            </div>
+         </div>
+      </section>
+   </div>
+  <!-- Swiper JS -->
+   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <!-- Font Awesome Icons -->
+   <script src="https://use.fontawesome.com/86055cbe21.js"></script>
+   <!-- Import Javascript File -->
+   <script src="app.js"></script>
 </body>
 </html>

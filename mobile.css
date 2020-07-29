@@ -1,0 +1,133 @@
+.mobile {
+   display: block;
+}
+
+.desktop {
+   display: none;
+}
+
+/* Utility Classes */
+
+.section {
+   padding: 50px 0; 
+}
+
+/* Landing Page */
+
+header {
+   width: 100%;
+   background: url("./assets/images/mobile-background.png") no-repeat center center/cover;
+}
+
+.welcome-text {
+   padding: 0px 10px;
+   height: 320px;
+
+}
+
+h1 {
+   font-size: 35px;
+   padding-bottom: 10px;
+}
+
+h3 {
+   font-size: 14px;
+}
+
+h6 {
+   font-size: 16px;
+}
+
+.socials li{
+   margin-right: 20px;
+   display: inline-block;
+}
+
+.socials li i {
+   font-size: 18px;
+}
+
+.nav-links {
+   display: block;
+   margin-top: 15px;
+   font-size: 12px;
+}
+
+.nav-links li a {
+   margin-top: 20px;
+}
+
+.nav-links span {
+   padding: 3px 5px;
+   border-radius: 50px;
+}
+
+/* About Suraj */
+
+.about-grid {
+   display: block;
+}
+
+.about-image img {
+   margin-top: 35px;
+   margin-left: 0px;
+}
+
+/* Work Experience */
+
+.swiper-container-mobile {
+   width: 300px;
+   height: 125px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.experience-arrow {
+   margin: 0;
+   padding: 0;
+}
+
+#experience .section-head {
+   margin-bottom: 0px;
+}
+
+/* CTA */
+
+.cta {
+   padding-top: 20px;
+   width: 100%;
+   color: #ffffff;
+}
+
+/* Software Projects */
+
+.project-grid {
+   display: block;
+}
+
+.project {
+   margin: 15px 0px;
+   height: 165px;
+}
+
+.project-row {
+   display: grid;
+   padding-top: 10px;
+   grid-template-columns: 10px 200px 100px;
+}
+
+/* Consulting Work */
+
+.consulting-grid {
+   display: block;
+}
+
+.deck-cover {
+   padding-bottom: 30px;
+}
+
+/* Contact */
+
+.footer-links li{
+   margin-right: 5px;
+}

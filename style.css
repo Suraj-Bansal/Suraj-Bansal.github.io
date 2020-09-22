@@ -297,7 +297,7 @@ header {
 .about-grid {
    display: grid;
    grid-template-columns: 2fr 1fr;
-   grid-gap: 50px;
+   grid-gap: 20px;
 }
 
 .about-image img {

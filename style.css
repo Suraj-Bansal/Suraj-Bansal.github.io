@@ -133,7 +133,7 @@ hr {
 
 .spaced-underline:hover { 
    padding-bottom: 1px; 
-   transition: all 0.3s ease; 
+   transition: all 0.3s ease-in-out; 
    cursor: pointer;
    color: var(--primary-color);
 }
@@ -145,7 +145,7 @@ hr {
 }
 
 .p-spaced-underline:hover { 
-   transition: all 0.3s ease; 
+   transition: all 0.3s ease-in-out; 
    cursor: pointer;
    color: var(--primary-color);
 }
@@ -175,12 +175,12 @@ hr {
 
 .small-bounce:hover {
    transform: translateY(-3px);
-   transition: all 0.3s ease;
+   transition: transform 0.3s ease-in-out;
 }
 
 .px-bounce:hover {
    transform: translateY(-1px);
-   transition: all 0.3s ease;
+   transition: all 0.3s ease-in-out;
 }
 
 .fade { opacity: 1; }
@@ -226,6 +226,7 @@ nav {
 
 .navbar_links li a:hover {
    color: var(--primary-color);
+   transition: all 0.3s ease-in-out;
 }
 
 /* Header Section */
@@ -253,7 +254,7 @@ header {
 }
 
 .socials li{
-   margin-right: 25px;
+   margin-right: 30px;
    display: inline-block;
 }
 
@@ -265,6 +266,8 @@ header {
 
 .socials li i:hover {
    opacity: 0.87;
+   transition: all 0.3s ease-in-out;
+   transform: scale(1.05);
 }
 
 .nav-links {
@@ -281,6 +284,11 @@ header {
    color: #ffffff;
 }
 
+.nav-links li a:hover {
+   transform: scale(0.98);
+   transition: all 0.3s ease-in-out;
+}
+
 .nav-links span {
    padding: 10px 15px;
    border-radius: 50px;
@@ -290,7 +298,7 @@ header {
 .nav-links span:hover {
    background-color: var(--surface-color);
    color: var(--primary-color);
-   transition: all 0.3s ease;
+   transition: all 0.3s ease-in-out;
 }
 
 /* About Suraj */
@@ -326,10 +334,13 @@ header {
    max-height: 100px;
    grid-template-columns: 3fr 1fr;
    align-items: center;
+   border: 2px solid var(--surface-color);
 }
 
 .swiper-slide:hover {
    background-color: #242424;
+   border: 2px solid var(--primary-variant);
+   transition: all 0.3s ease-in-out !important;
 }
 
 .experience-title {
@@ -365,7 +376,7 @@ header {
 .swiper-button-next:hover {
    color: var(--primary-color) !important;
    padding-right: 97px;
-   transition: padding-right 0.5s ease;
+   transition: padding-right 0.5s ease-in-out;
    opacity: 0.87;
 }
 
@@ -377,7 +388,7 @@ header {
 .swiper-button-prev:hover {
    color: var(--primary-color) !important;
    padding-left: 97px;
-   transition: padding-left 0.5s ease;
+   transition: padding-left 0.5s ease-in-out;
    opacity: 0.87;
 }
 
@@ -394,7 +405,9 @@ header {
 .cta {
    padding-top: 20px;
    width: 50%;
+   left: 25%;
    color: #ffffff;
+   position: absolute;
 }
 
 .cta a {
@@ -407,7 +420,7 @@ header {
    color: var(--primary-color);
    padding-bottom: 1px;
    border-bottom: 1px solid var(--primary-color);
-   transition: all 0.3s ease; 
+   transition: all 0.3s ease-in-out; 
    cursor: pointer;
 }
 
@@ -440,7 +453,7 @@ header {
 
 .rotate:hover {
    opacity: 0.87;
-   transition: all 0.5s ease;
+   transition: all 0.5s ease-in-out;
 }
 
 .project h5 {
@@ -453,7 +466,7 @@ header {
 
 .project a:hover {
    color: var(--primary-color);
-   transition: all 0.7s ease;
+   transition: all 0.7s ease-in-out;
    font-weight: 900;
 }
 
@@ -525,7 +538,7 @@ header {
 .project-row h6:hover {
    opacity: 0.87;
    color: var(--primary-color);
-   transition: all 0.3s ease;
+   transition: all 0.3s ease-in-out;
 }
 
 /* Consulting Work */
@@ -545,7 +558,8 @@ header {
 
 .deck-cover img:hover {
    box-shadow: 10px 10px 10px rgba(29,29,29,1);
-   transition: box-shadow 0.3s ease-in-out;
+   transform: scale(1.05);
+   transition: all 0.5s ease-in-out;
 }
 
 .deck-cover p {
@@ -559,12 +573,13 @@ header {
 .company {
    color: #ffffff;
    font-size: 14px;
+   padding-top: 5px;
 }
 
 .company:hover {
    color: var(--primary-color);
-   opacity: 0.6;
-   transition: all 0.5s ease;
+   opacity: 0.87;
+   transition: all 0.5s ease-in-out;
 }
 
 /* Footer */
@@ -588,7 +603,8 @@ header {
 .footer-links li:hover {
    opacity: 0.87;
    color: var(--primary-color);
-   font-weight: 700;
+   transform: scale(1.01);
+   transition: all 0.5s ease-in-out;
 }
 
 .copyright p {

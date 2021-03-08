@@ -32,7 +32,6 @@ header {
 .welcome-text {
    padding: 0px 20px;
    height: 320px;
-
 }
 
 h1 {
@@ -116,7 +115,10 @@ h6 {
    padding-top: 20px;
    width: 100%;
    color: #ffffff;
+   position: relative;
+   left: auto;
 }
+
 
 /* Software Projects */
 
@@ -153,4 +155,8 @@ h6 {
 
 .fade-mobile {
    opacity: 1;
+}
+
+.copyright p {
+   padding-bottom: 5px;
 }

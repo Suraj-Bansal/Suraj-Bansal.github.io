@@ -1,3 +1,9 @@
+// Preloader
+
+$(window).on('load', function() {
+  $('#preloader').addClass("loaded");
+});
+
 // Slide down navbar command
 
 window.onscroll = function() {scrollFunction()};

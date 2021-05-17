@@ -349,21 +349,20 @@ header {
    height: 100vh;
 }
 
-.welcome-text ul {
-   padding-top: 5px;
-}
-
 .fixed {
-   width: 100%;
-   padding-bottom: 35px;
+   padding-bottom: 25px;
+   padding-left: 150px;
+   padding-top: 25px;
 }
  
 .content {
    position: absolute;
-   top: 65%;
-   left: 22%;
+   padding-bottom: inherit;
+   padding-left: inherit;
+   /* top: 65%; */
+   /* left: 23%; */
    transform: translate(-50%, -50%);
-   height: 160px;
+   height: 40px;
    overflow: hidden;
    font-size: 35px;
    line-height: 40px;
@@ -374,19 +373,17 @@ header {
    overflow: hidden;
    font-weight: 550;
    height: 40px;
-   padding: 0 40px;
 }
 
 .content__container:before {
    content: "<";
-   left: 0;
 }
 
 .content__container:after {
    content: "/>";
-   position: absolute;
    right: 0;
 }
+
 
 .content__container:after, .content__container:before {
    position: absolute;
@@ -402,13 +399,10 @@ header {
    animation-iteration-count: infinite;
 }
 
-.content__container__text {
-   display: inline;
-   margin: 0;
-}
-
 .content__container__list {
    margin-top: 0;
+   padding-left: 35px;
+   padding-right: 35px;
    text-align: left;
    list-style: none;
    -webkit-animation-name: change;

@@ -45,7 +45,18 @@ header {
 
 .welcome-text {
    padding: 0px 20px;
-   height: 100vh;
+   top: 40%;
+}
+.content {
+   top: 48%;
+   left: 50%;
+   font-size: 20px;
+   width: 100%;
+   text-align: center;
+}
+
+.content__container__list {
+   text-align: center;
 }
 
 .descriptor {
@@ -66,7 +77,7 @@ h6 {
 }
 
 .socials {
-   margin-top: 15px;
+   top: 60%;
 }
 
 .socials li{
@@ -81,7 +92,6 @@ h6 {
 .nav-links {
    font-size: 12px;
    justify-content: center;
-   margin-top: 30px;
 }
 
 .nav-links li a {
@@ -102,23 +112,6 @@ h6 {
 .about-image img {
    margin-top: 35px;
    margin-left: 0px;
-}
-
-.fixed {
-   padding-top: 50px;
-}
-
-.content {
-   top: 52%;
-   left: 50%;
-   height: 100px;
-   font-size: 20px;
-   width: 100%;
-   text-align: center;
-}
-
-.content__container__list {
-   text-align: center;
 }
 
 /* Work Experience */

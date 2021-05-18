@@ -384,7 +384,6 @@ header {
    right: 0;
 }
 
-
 .content__container:after, .content__container:before {
    position: absolute;
    top: 3%;

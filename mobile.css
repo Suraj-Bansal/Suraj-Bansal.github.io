@@ -48,8 +48,11 @@ header {
    height: 100vh;
 }
 
-.mobile-header-image  {
-   padding-bottom: 20px;
+.fixed {
+   position: relative;
+   margin-top: 35px;
+   padding-left: 0;
+   padding-bottom: 0;
 }
 
 /* 
@@ -58,7 +61,7 @@ header {
 } */
 
 .socials {
-   margin-top: 15px;
+   margin-top: 0px;
 }
 
 .socials li{

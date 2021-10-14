@@ -26,6 +26,10 @@ var swiper = new Swiper(".mySwiper", {
     delay: 2000,
     disableOnInteraction: false,
   },
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
   loop: true,
 });
 

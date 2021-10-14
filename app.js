@@ -17,23 +17,35 @@ function scrollFunction() {
   }
 }
 
-// Swiper 
+// New Swiper
 
-var swiper = new Swiper('.swiper-container', {
-   slidesPerView: 3,
-   spaceBetween: 30,
-   grabCursor: true,
-   navigation: {
-     nextEl: '.swiper-button-next',
-     prevEl: '.swiper-button-prev',
-   },
- });
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
+  loop: true,
+});
 
-var swiper = new Swiper('.swiper-container-mobile', {
-   slidesPerView: 1,
-   spaceBetween: 50,
-   grabCursor: true,
- });
+// // Swiper 
+
+// var swiper = new Swiper('.swiper-container', {
+//    slidesPerView: 3,
+//    spaceBetween: 30,
+//    grabCursor: true,
+//    navigation: {
+//      nextEl: '.swiper-button-next',
+//      prevEl: '.swiper-button-prev',
+//    },
+//  });
+
+// var swiper = new Swiper('.swiper-container-mobile', {
+//    slidesPerView: 1,
+//    spaceBetween: 50,
+//    grabCursor: true,
+//  });
 
 // Text loop
 

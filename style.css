@@ -387,7 +387,7 @@ header {
 .content__container:after, .content__container:before {
    position: absolute;
    top: 3%;
-   color: white);
+   color: white;
    font-size: 35px;
    line-height: 40px;
    -webkit-animation-name: opacity;
@@ -594,7 +594,7 @@ header {
 .swiper-slide:hover {
    background-color: #242424;
    border: 3px solid var(--primary-variant);
-   transition:   0.3s ease-in-out !important;
+   transition: 0.3s ease-in-out !important;
 }
 
 .experience-title {

@@ -129,15 +129,14 @@ header {
    content: none;
 }
 
-
 .swiper-slide h5 {
-   font-size: 18px;
+   font-size: 18px !important;
    padding-bottom: 10px;
    font-weight: 700;
 }
 
 .swiper-slide h6 {
-   font-size: 12px;
+   font-size: 12px !important;
    color: var(--primary-color);
 }
 

@@ -118,7 +118,6 @@ header {
    height: 105px;
    margin-left: auto;
    margin-right: auto;
-   margin-top: 30px
 }
 
 .content__container:before {
@@ -152,10 +151,6 @@ header {
 .experience-arrow {
    margin: 0;
    padding: 0;
-}
-
-#experience-mobile .section-head {
-   margin-bottom: 0px;
 }
 
 /* CTA */

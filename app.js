@@ -33,6 +33,21 @@ var swiper = new Swiper(".mySwiper", {
   loop: true,
 });
 
+var swiper = new Swiper(".mySwiper-mobile", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  loop: true,
+});
+
+
 // // Swiper 
 
 // var swiper = new Swiper('.swiper-container', {

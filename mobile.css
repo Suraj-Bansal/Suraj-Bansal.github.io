@@ -113,7 +113,7 @@ header {
 
 /* Work Experience */
 
-.swiper-container-mobile {
+.swiper {
    width: 300px !important;
    height: 105px;
    margin-left: auto;

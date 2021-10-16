@@ -624,24 +624,24 @@ header {
 
 .swiper-button-next {
    color: #ffffff !important;
-   padding-right: 100px;
+   padding-right: 150px;
 }
 
 .swiper-button-next:hover {
    color: var(--primary-color) !important;
-   padding-right: 97px;
+   padding-right: 147px;
    transition: padding-right 0.5s ease-in-out;
    opacity: 0.87;
 }
 
 .swiper-button-prev {
    color: #ffffff !important;
-   padding-left: 100px;
+   padding-left: 150px;
 }
 
 .swiper-button-prev:hover {
    color: var(--primary-color) !important;
-   padding-left: 97px;
+   padding-left: 147px;
    transition: padding-left 0.5s ease-in-out;
    opacity: 0.87;
 }

@@ -68,7 +68,7 @@ var swiper = new Swiper(".mySwiper-mobile", {
 
 // Text loop
 
-var example = ['masterchef reject', 'machine learning developer', 'student researcher', 'guitarist'];
+var example = ['machine learning developer', 'student researcher', 'guitarist'];
 
 textSequence(0);
 function textSequence(i) {

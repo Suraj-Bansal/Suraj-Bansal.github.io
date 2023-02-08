@@ -577,17 +577,17 @@ header {
 .swiper {
    width: 1000px;
    height: 125px;
+   justify-content: center;
 }
 
 .swiper-slide {
    font-size: 12px !important;
    background-color: var(--surface-color);
    color: #ffffff;
-   display: grid;
+   display: flex;
    max-height: 100px;
-   grid-template-columns: 3fr 1fr;
-   align-items: center;
    border: 3px solid var(--surface-color);
+   justify-content: center;
 }
 
 .swiper-slide:hover {
@@ -596,13 +596,43 @@ header {
    transition: 0.3s ease-in-out !important;
 }
 
+.experience-entry {
+   display: flex;
+   align-items: center !important;
+   justify-content: center !important;
+   height: 100%;
+ }
+
 .experience-title {
-   padding-left: 10px;
    opacity: 0.87;
+   display: inline-block;
+   flex: 0 0 75%;
+   max-width: 75%;
+   width: 100%;
+   padding-right: 7.5px;
+   padding-left: 15px;
+   object-fit: contain;
 }
 
+.experience-logo {
+   flex: 0 0 25%;
+   display: inline-block;
+   max-width: 25%;
+   position: relative;
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 7.5px;
+}
+
+.logo {
+   max-width: 100%;
+   height: auto;
+   object-fit: contain;
+   display: inline-block;
+ }
+
 .swiper-slide h5 {
-   font-size: 20px;
+   font-size: 18px;
    padding-bottom: 10px;
    font-weight: 700;
 }
@@ -654,6 +684,7 @@ header {
 .swiper-button-prev:focus {
    outline: none;
 }
+
 
 /* .swiper-slide img {
    display: block;

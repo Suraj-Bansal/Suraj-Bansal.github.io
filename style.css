@@ -828,6 +828,20 @@ header {
    padding-left: 10px;
 }
 
+.dot-R {
+   height: 10px;
+   width: 10px;
+   background-color: #198CE7;
+   border-radius: 50%;
+   display: inline-block;
+   margin-left: 10px;
+   margin-top: 7px;
+   color: #ffffff;
+   font-size: 12px;
+   opacity: 0.87;
+   padding-left: 10px;
+}
+
 .dot-jupyter-notebook {
    height: 10px;
    width: 10px;

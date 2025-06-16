@@ -169,7 +169,7 @@ hr {
 .p-spaced-underline {
    border-bottom: 1px solid;
    padding-bottom: 1px;
-   display: inline-block;
+   display: inline;
 }
 
 .p-spaced-underline:hover { 
@@ -346,23 +346,23 @@ header {
    display: flex;
    flex-direction:column;
    justify-content: center;
+   align-items: center;
    padding: 0 100px;
    height: 100vh;
 }
 
 .fixed {
    padding-bottom: 25px;
-   padding-left: 150px;
+   padding-left: 200px;
    padding-top: 25px;
 }
  
 .content {
-   position: absolute;
-   padding-bottom: inherit;
-   padding-left: inherit;
+   position: static;
    /* top: 65%; */
    /* left: 23%; */
-   transform: translate(-50%, -50%);
+   transform: none;
+   text-align: center;
    height: 40px;
    overflow: hidden;
    font-size: 35px;
@@ -376,14 +376,14 @@ header {
    height: 40px;
 }
 
-.content__container:before {
+/* .content__container:before {
    content: "<";
 }
 
 .content__container:after {
    content: "/>";
    right: 0;
-}
+} */
 
 .content__container:after, .content__container:before {
    position: absolute;
@@ -400,10 +400,9 @@ header {
 }
 
 .content__container__list {
-   margin-top: 0;
    padding-left: 35px;
    padding-right: 35px;
-   text-align: left;
+   text-align: center;
    list-style: none;
    -webkit-animation-name: change;
    -webkit-animation-duration: 10s;
@@ -501,13 +500,18 @@ header {
 
 .nav-links {
    display: flex;
+   justify-content: center;
+   align-items: center;
    flex-direction: row;
    text-transform: uppercase;
-   margin-top: 30px;
+   margin-top: 10px;
+}
+
+.nav-links li {
+  margin: 0 20px;
 }
 
 .nav-links li a {
-   margin-right: 35px;
    opacity: 0.6;
    font-weight: 700;
    color: #ffffff;
@@ -565,7 +569,7 @@ header {
 }
 
 .about-image img {
-   margin-top: 85px;
+   margin-top: 75px;
    border-radius: 50%;
    margin-left: 20px;
    border: 3px solid var(--background-color);
@@ -740,10 +744,7 @@ header {
 /* CTA */
 
 .cta {
-   width: 50%;
-   left: 25%;
    color: #ffffff;
-   position: absolute;
 }
 
 .cta a {
@@ -881,7 +882,7 @@ header {
 
 .project-row h6 {
    font-size: 14px;
-   margin-left: 5px;
+   margin-left: 10px;
    opacity: 0.38;
 }
 
